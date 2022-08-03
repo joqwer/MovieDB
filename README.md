@@ -14,6 +14,12 @@ npm create svelte@latest
 npm create svelte@latest my-app
 ```
 
+## Server
+Remember to run the backend server in production and in development
+```bash
+npm run serve
+```
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
