@@ -2,6 +2,9 @@
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
+## Prerequisites
+- API key from [TMDB](https://developers.themoviedb.org)
+
 ## Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
@@ -15,10 +18,12 @@ npm create svelte@latest my-app
 ```
 
 ## Server
-Remember to run the backend server in production and in development you also should change all the references to localhost:3000 to where the server is running:
+Remember to run the backend server in production and in development:
 ```bash
 npm run serve
 ```
+
+You also should change all the references to localhost:3000 to where the server is running. Also, create a .env file in the root of the project and set `TMDB_API_KEY=<<your api key>>.`.
 
 ## Developing
 
