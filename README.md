@@ -15,7 +15,7 @@ npm create svelte@latest my-app
 ```
 
 ## Server
-Remember to run the backend server in production and in development
+Remember to run the backend server in production and in development you also should change all the references to localhost:3000 to where the server is running:
 ```bash
 npm run serve
 ```
